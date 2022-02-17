@@ -1,0 +1,53 @@
+.cart-container {
+    background: rgb(232, 232, 232);
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cart-items {
+    background: white;
+    flex-basis: 70%;
+    height: fit-content;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.title {
+    margin-left: 2%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.cart-summary {
+    text-align: center;
+    background: white;
+    flex-basis: 25%;
+    height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.summary-title {
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
+
+.cart-total {
+    margin-top: 3%;
+    font-size: 1.1rem;
+}
+
+.coupon {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    justify-content: center;
+}
+

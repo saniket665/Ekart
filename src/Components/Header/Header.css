@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2c2c2c;
+}
+
+.cart-count {
+    position: absolute;
+    top: -19%;
+    left: 74%;
+    font-size: smaller;
+}

@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.item-img {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.item-img img {
+    height: 70vh;
+    width: 70%;
+}
+
+.item-description {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(43, 43, 43);
+}
+
+.price {
+    color: #939393;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.price span {
+    color: rgb(232, 11, 11);
+}
+
+.description {
+    color: rgb(43, 43, 43);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description-detail {
+    color: rgb(71, 71, 71);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8;
+    margin-bottom: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
